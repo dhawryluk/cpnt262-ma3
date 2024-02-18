@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 80vw;
+  margin: auto;
+  text-align: center;
+  background-color: darkgray;
+}
+
+fieldset {
+  margin-top: 3em;
+  border: solid 0.5em darkslategrey;
+  color: whitesmoke;
+  padding: 2em;
+}
+
+input {
+  text-align: center;
+  display: block;
+  margin: 1em auto;
+  height: 2em;
+}
+
+button {
+  padding: 0.5em;
+  border-style: none;
+  border-radius: 0.5em;
+  color: whitesmoke;
+  background-color: darkslategrey;
+}
+
+button:hover {
+  background-color: darkgoldenrod;
+  color: white;
+  transform: scale(1.1);
+  transition: 0.3ms ease-in-out;
+}
